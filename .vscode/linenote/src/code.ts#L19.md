@@ -1,0 +1,1 @@
+Optional properties. Similar to safe navigation

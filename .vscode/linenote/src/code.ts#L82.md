@@ -1,0 +1,1 @@
+Renumber enum to start from 1 instead of the 0 index start
