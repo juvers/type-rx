@@ -1,0 +1,1 @@
+Destructure object with object.entries

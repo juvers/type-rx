@@ -1,0 +1,1 @@
+Class always returns the object in the constructor if no special method in class is called
