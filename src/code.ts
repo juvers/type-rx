@@ -1,6 +1,8 @@
 import {fromEvent, iif} from 'rxjs';
 import Job from './context';
 
+import {Game, TGame } from './interface';
+
 // fromEvent(document, 'click').subscribe(() => addItem('clicked'));
 // [3,4,5,6].map(x => addItem(x))
 
@@ -108,4 +110,12 @@ let numVal: number = (someVal as string).length;
 let numVal2: number = (<string>someVal).length;
 addItem(numVal);
 addItem(numVal2)
-  
+
+
+
+for(let [key, value] of Object.entries(TGame())){
+    addItem(`${key}: ${value}`)
+}
+
+
+

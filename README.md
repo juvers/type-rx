@@ -1,5 +1,8 @@
 ### Boiler plate for rxjs & typescript
+---
+> web-type = webpack + typescript
 
+---
 ##### Steps to create
 
 1. Create folder and initialize package.json
