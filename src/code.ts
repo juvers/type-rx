@@ -2,6 +2,8 @@ import {fromEvent, iif} from 'rxjs';
 import Job from './context';
 
 import {Game, TGame } from './interface';
+import genObj from './generics/generics';
+import {prop} from './generics/keyof';
 
 // fromEvent(document, 'click').subscribe(() => addItem('clicked'));
 // [3,4,5,6].map(x => addItem(x))
@@ -118,5 +120,14 @@ for(let [key, value] of Object.entries(TGame())){
 }
 
 
+type Mo = "one" | "two" | "three";
 
-/// comment inside juv branch:wq
+let nz: Mo = "two";
+
+addItem(nz);
+
+addItem(genObj.g2("Judekuti"))
+
+const obj3 = {name: "Jude", hobby: "chess", position: "dad"};
+
+addItem(prop(obj3, "hobby"))
