@@ -2,7 +2,7 @@ import {fromEvent, iif} from 'rxjs';
 import Job from './context';
 
 import {Game, TGame } from './interface';
-import genObj from './generics/generics';
+import genObj,{CreateUser} from './generics/generics';
 import {prop} from './generics/keyof';
 
 // fromEvent(document, 'click').subscribe(() => addItem('clicked'));
@@ -131,3 +131,12 @@ addItem(genObj.g2("Judekuti"))
 const obj3 = {name: "Jude", hobby: "chess", position: "dad"};
 
 addItem(prop(obj3, "hobby"))
+
+
+// for(const[key, val] of obj3){
+//     addItem(`${key}: ${val}`)
+// }
+
+const obj4 = { name: "mama", age: 38};
+
+Object.values(CreateUser({...obj4})).forEach(x => addItem(x));

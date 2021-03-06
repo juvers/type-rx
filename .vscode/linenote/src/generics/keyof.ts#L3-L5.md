@@ -1,0 +1,1 @@
+This restricts the key to be string and as such cant take any other type

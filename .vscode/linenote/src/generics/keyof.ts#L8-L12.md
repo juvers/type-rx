@@ -1,0 +1,1 @@
+consider an interface of variant types
