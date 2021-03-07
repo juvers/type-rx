@@ -1,4 +1,4 @@
-### Boiler plate for rxjs & typescriptzz
+### Boiler plate for rxjs & typescript
 ---
 > web-type = webpack + typescript
 
