@@ -153,3 +153,5 @@ interface GIdentity{
 }
 
 let ObjLit2: GIdentity = identity
+
+/// adding content for test
