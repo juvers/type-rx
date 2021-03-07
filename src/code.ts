@@ -154,3 +154,4 @@ interface GIdentity{
 
 let ObjLit2: GIdentity = identity
 
+// adding test from juv2
