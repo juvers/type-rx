@@ -140,3 +140,16 @@ addItem(prop(obj3, "hobby"))
 const obj4 = { name: "mama", age: 38};
 
 Object.values(CreateUser({...obj4})).forEach(x => addItem(x));
+
+
+// GENERICS to be moved
+function identity<T>(args: T): T {
+    return args;
+}
+let ObjLit: { <T>(arg: T) : T} =  identity;
+
+interface GIdentity{
+    <T>(arg: T): T
+}
+
+let ObjLit2: GIdentity = identity

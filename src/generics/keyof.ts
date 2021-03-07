@@ -30,3 +30,4 @@ for(const [key, value] of Object.entries(obj1)){
 // export interface ObjEntries{
 //     entries<T extends { [key: string]: any}, K extends keyof T>(o: T): [keyof T, T[K]][];
 // }
+
