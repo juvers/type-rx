@@ -1,6 +1,7 @@
 ### Boiler plate for rxjs & typescriptzz
 Inside rsimon at 658
 Changes added into rsimon at 706
+Third change at 712
 ---
 > web-type = webpack + typescript
 
