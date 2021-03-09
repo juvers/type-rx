@@ -12,8 +12,6 @@ interface Data {
 }
 
 
-type d2 = keyof Data;
-
 export function prop<T, K extends keyof T>(obj: T, key: K){
     return obj[key]
 }
