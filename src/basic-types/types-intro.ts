@@ -20,7 +20,7 @@
 
 
 // TS includes the following new types:
-// Date, never, any, enum, unknown,
+// Date, any, void, Arrays, Tuples, never, enum, unknown,
 
 // I - Type Annotation
 // i. variables
